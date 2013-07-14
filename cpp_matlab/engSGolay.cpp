@@ -44,7 +44,7 @@ int main()
     mRet = engGetVariable(meng, "g");
     if (mRet == NULL) {
         std::cerr << "No g has been created" << std::endl;
-    }else{
+    } else {
         ret = mxGetPr(mRet);
         std::cout << "g = " << ret[0] << " " << ret[5] << std::endl;
         std::cout << "row = " << mxGetM(mRet) << std::endl;
@@ -55,7 +55,7 @@ int main()
     double coef_smooth[F];
     double coef_derivative[F];
 
-    for(size_t i = 0; i < F; i++){
+    for (size_t i = 0; i < F; i++) {
         coef_smooth[i] = ret[i];
         coef_derivative[i] = ret[i+F];
         std::cout << "s = " << coef_smooth[i] << " d = " << coef_derivative[i] << std::endl;
