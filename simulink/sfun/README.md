@@ -9,12 +9,14 @@ Simulink C s-function Example
 **Usage**
 
 ``` bash
-# mex
+# ------- Compile -------
+# Option 1: mex
 mex sfun_timestwo.c
 
-# cmake
+# Option 2: cmake
 mkdir build && cd build && cmake .. && make 
 
+# -------- Run -----------
 # add build to Matlab path
 # run sl_sfun from Matlab 
 ```
