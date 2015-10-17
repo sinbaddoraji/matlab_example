@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomKeySet derivedfrom="Windows" modifieddefault="false">
+   <Context id="Global">
+      <Action id="new-mfile"/>
+      <Action id="print"/>
+      <Action id="previous-history-item">
+         <Stroke code="VK_UP"/>
+         <Stroke code="VK_KP_UP"/>
+         <Stroke code="VK_P" ctrl="on"/>
+      </Action>
+      <Action id="clear-command-window">
+         <Stroke code="VK_L" ctrl="on"/>
+      </Action>
+      <Action id="next-history-item">
+         <Stroke code="VK_DOWN"/>
+         <Stroke code="VK_KP_DOWN"/>
+         <Stroke code="VK_N" ctrl="on"/>
+      </Action>
+   </Context>
+</CustomKeySet>
